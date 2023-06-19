@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.597" height="21.741" viewBox="0 0 18.597 21.741">
+  <g id="icon-2" transform="translate(-40.033 -17.337)">
+    <line id="Line_1" data-name="Line 1" x1="4" transform="translate(47 38.453)" fill="none" stroke="#0da04a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path id="Path_15" data-name="Path 15" d="M78.614,18.181c-1.885,1.51-8.19,7.545-2.677,17.1h6.353c5.4-9.545-.814-15.577-2.68-17.093A.792.792,0,0,0,78.614,18.181Z" transform="translate(-29.782 0)" fill="none" stroke="#0da04a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path id="Path_16" data-name="Path 16" d="M43.958,110.71l-3.112,3.734a.794.794,0,0,0-.165.681l1.227,5.522a.794.794,0,0,0,1.271.448l2.975-2.38m8.49-8.076,3.172,3.806a.794.794,0,0,1,.165.681l-1.227,5.522a.794.794,0,0,1-1.271.448l-2.975-2.38" transform="translate(0 -83.437)" fill="none" stroke="#0da04a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="3.5" cy="3.5" r="3.5" transform="translate(45.662 22.006)" fill="#ddf3cc"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="1.5" cy="1.5" r="1.5" transform="translate(47.662 24.006)" fill="#0da04a"/>
+  </g>
+</svg>

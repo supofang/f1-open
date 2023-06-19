@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+  <meta content='width=device-width, initial-scale=1' name='viewport'>
+  <title>Freetop1免費第一</title>
+  <link href='stylesheets/all.css' media='screen' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <header class="header sticky-top">
+    <nav class="navbar">
+      <ul class="nav nav-top">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">專館首頁</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="record-task.html">冒險任務</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="record-point.html">賞金紀錄</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="record-expenses.html">消費明細</a>
+        </li>
+      </ul>
+      <div class="ms-auto dropdown">
+        <a class="nav-link" data-bs-toggle="dropdown" href="#"><i class="icon-more"></i></a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="nav-open">
+      <div>
+        <a href="https://test-ophub.sp88.tw/App/Home"><img
+            src="https://test-opwalls.sp88.tw/s3assets/app/images/MenuDefault.png"></a>
+      </div>
+      <div>
+        <a href="https://test-ophub.sp88.tw/App/home/Transfer?to=News"><img
+            src="https://test-opwalls.sp88.tw/s3assets/app/images/MenuNews.png"></a>
+      </div>
+      <div>
+        <a href="https://test-ophub.sp88.tw/App/home/Transfer?to=wall"><img
+            src="https://test-opwalls.sp88.tw/s3assets/app/images/MenuMissionWall.png"></a>
+      </div>
+      <div>
+        <a href="https://test-ophub.sp88.tw/App/home/Transfer?to=fungames&amp;url="><img
+            src="https://test-opwalls.sp88.tw/s3assets/app/images/MenuGames.png?v=2022"></a>
+      </div>
+      <div>
+        <a href="https://test-ophub.sp88.tw/App/home/Transfer?to=Voucher"><img
+            src="https://test-opwalls.sp88.tw/s3assets/app/images/MenuVoucher.png"></a>
+      </div>
+    </nav>
+  </header>
+  <main class="container mb-5">
+    <h4 class="fortune-title">請填寫以下親算資料</h4>
+    <form class="fortune-form">
+      <div class="row g-2 mb-2">
+        <div class="col-3">服務名稱：</div>
+        <div class="col-9">(系統帶入)</div>
+        <div class="col-3">消費金額：</div>
+        <div class="col-9"><h4 class="text-danger">2,000</h4></div>
+      </div>
+      <div class="row align-items-center align-items-sm-start g-2 g-sm-3">
+        <label for="name" class="col-sm-3 col-form-label"><span class="text-danger">*</span>您的姓名：</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" id="name">
+        </div>
+
+        <label class="col-sm-3 col-form-label"><span class="text-danger">*</span>您的性別：</label>
+        <div class="col-sm-9">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gender" id="gender1" checked>
+            <label class="form-check-label" for="gender1">女性</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gender" id="gender2">
+            <label class="form-check-label" for="gender2">男性</label>
+          </div>
+        </div>
+
+        <label class="col-sm-3 col-form-label"><span class="text-danger">*</span>您的生日：</label>
+        <div class="col-sm-9">
+          <select class="form-select">
+            <option selected>2022</option>
+            <option>2021</option>
+            <option>2020</option>
+            <option>2019</option>
+          </select>
+          <label>年</label>
+          <select class="form-select">
+            <option selected value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <label>月</label>
+          <select class="form-select">
+            <option selected value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <label>日</label>
+          <select class="form-select">
+            <option selected value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <label>時</label>
+        </div>
+
+        <label class="col-sm-3 col-form-label"><span class="text-danger">*</span>您想問的問題(500中文字以內)：</label>
+        <div class="col-sm-9">
+          <textarea class="form-control" rows="6"></textarea>
+        </div>
+
+        <label for="email" class="col-sm-3 col-form-label"><span class="text-danger">*</span>您的E-mail：<br><small class="text-secondary">測算結果將會寄到您的email信箱，請務必填寫正確</small></label>
+        <div class="col-sm-9">
+          <input type="email" class="form-control" id="email">
+        </div>
+        <label for="email-comfirm" class="col-sm-3 col-form-label"><span class="text-danger">*</span>確認E-mail：<br><small class="text-secondary">需與上面email相同</small></label>
+        <div class="col-sm-9">
+          <input type="email" class="form-control" id="email-comfirm">
+        </div>
+        <label for="phone" class="col-sm-3 col-form-label">您的手機號碼：<br><small class="text-secondary">選填，服務人員不會主動聯繫您匯款相關問題</small></label>
+        <div class="col-sm-9">
+          <input type="tel" class="form-control" id="phone">
+        </div>
+
+      </div>
+      <div class="d-grid my-4">
+        <a href="fortune-form-result.html" class="btn btn-lg btn-fortune">確認送出</a>
+      </div>
+
+    </form>
+  </main>
+  <script src="javascripts/vendor.js"></script>
+  <script src="javascripts/script.js"></script>
+</body>
+
+</html>
